@@ -478,13 +478,15 @@
         <div class="mailing-list">
           <b>Підпишіться на розсилку</b>
           <div class="mailing-list-wrapper">
-            <input type="text" id="mail" name="mailingList" placeholder="E-mail" />
-            <button class="btn-mailing" type="submit">
-              Підписатися
-              <svg class="icon-mailing-list">
-                <use href="./imeges/icons.svg#icon-airplane"></use>
-              </svg>
-            </button>
+            <form class="mailing-list-form">
+              <input type="email" id="mail" name="mailingList" placeholder="E-mail" />
+              <button class="btn-mailing" type="submit">
+                Підписатися
+                <svg class="icon-mailing-list" width="24px" height="24px">
+                  <use href="./imeges/icons.svg#icon-airplane"></use>
+                </svg>
+              </button>
+            </form>
           </div>
         </div>
       </div>
@@ -538,7 +540,7 @@
           </div>
 
           <div class="modal-checkbox-wrapper">
-            <input type="checkbox" id="agreement" />
+            <input class="checkbox-agreement" type="checkbox" id="agreement" name="agreement" />
             <label for="agreement"
               >Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label
             >
