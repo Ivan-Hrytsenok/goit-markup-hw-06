@@ -512,7 +512,6 @@
                 <input type="text" id="name" name="name" />
               </div>
             </div>
-
             <div class="modal-element-wrapper">
               <label for="tel">Телефон</label>
               <div class="input-wrapper">
@@ -522,7 +521,6 @@
                 <input type="tel" id="tel" name="telephone" />
               </div>
             </div>
-
             <div class="modal-element-wrapper">
               <label for="email">Пошта</label>
               <div class="input-wrapper">
@@ -532,13 +530,11 @@
                 <input type="email" id="email" name="email" />
               </div>
             </div>
-
             <div class="modal-element-wrapper">
               <label for="comment">Коментар</label>
               <textarea name="comment" id="comment" placeholder="Введіть текст"></textarea>
             </div>
           </div>
-
           <div class="modal-checkbox-wrapper">
             <input
               class="checkbox-agreement visually-hidden"
@@ -546,16 +542,15 @@
               id="agreement"
               name="agreement"
             />
-            <div class="custom-checkbox">
-              <svg>
-                <use href="./imeges/icons.svg#icon-check"></use>
-              </svg>
-            </div>
-            <label for="agreement"
-              >Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a></label
-            >
+            <label for="agreement">
+              <div class="custom-checkbox">
+                <svg width="16px" height="15px">
+                  <use href="./imeges/icons.svg#icon-check"></use>
+                </svg>
+              </div>
+              Погоджуюся з розсилкою та приймаю <a href="">Умови договору</a>
+            </label>
           </div>
-
           <button class="btn-send" type="submit">Відправити</button>
         </form>
       </div>
