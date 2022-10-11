@@ -819,9 +819,19 @@ body {
   letter-spacing: 0.01em;
   color: rgba(117, 117, 117, 0.5);
 }
-.checkbox-agreement {
+/* .checkbox-agreement {
   appearance: none;
+} */
+.custom-checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;;
+  border-radius: 3px;
 }
+.modal-checkbox-wrapper input
 .modal-checkbox-wrapper {
   display: flex;
   justify-content: center;
